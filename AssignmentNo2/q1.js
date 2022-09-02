@@ -16,7 +16,7 @@ function triangle(l,b,h){
         console.log("Area of Scalene triangle: "+areaScalene);
     }
 }
-// triangle(20,20,20);
+ triangle(20,20,20);
 // triangle(3,4,6);
-triangle(2,2,5);
+//triangle(2,2,5);
 
