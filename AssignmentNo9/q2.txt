@@ -1,0 +1,10 @@
+// What is the difference between a closure and a scope ?
+Scope:
+
+- Scope refers to the context in which a variable is declared and can be accessed. It determines the visibility and lifetime of variables.
+- Variables have a scope, which can be local or global. Local variables are defined within a specific block or function and are only accessible within that block or function. Global variables are defined at the top level of a program and can be accessed from anywhere in the program.
+
+Closures:
+
+- A closure is a function that captures and retains references to variables from its containing (enclosing) lexical scope, even after that scope has finished executing.
+- Closures are typically created when a function is defined within another function, and the inner function references variables from the outer function.
