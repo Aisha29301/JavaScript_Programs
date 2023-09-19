@@ -1,0 +1,11 @@
+Are Higher Order functions and Call back functions the same ? If not,
+briefly explain about both functions.
+
+- Higher-order functions and callback functions are related concepts in programming, but they are not the same. 
+
+- A higher-order function is a function that can accept other functions as arguments and/or return functions as their results. In other words, it treats functions as first-class citizens, allowing you to use functions as data.
+- Examples of higher-order functions include map(), filter(), reduce(), and forEach() in JavaScript, which can take a function as an argument and apply it to elements in a collection.
+
+
+- A callback function is a function that is passed as an argument to another function and is intended to be executed at a later time or under specific conditions.
+- For example, in JavaScript, when you pass a function as a callback to setTimeout() or addEventListener(), that function will be executed once the specified time elapses or the event occurs.
